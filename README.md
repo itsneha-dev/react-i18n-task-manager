@@ -96,5 +96,5 @@ Handle RTL layout support
 
 ## Screenshort
 
-[image alt]([image_url](https://github.com/itsneha-dev/react-i18n-task-manager/blob/main/Screenshot%202025-07-22%20235819.png?raw=true))
+[image alt](https://github.com/itsneha-dev/react-i18n-task-manager/blob/main/Screenshot%202025-07-22%20235819.png?raw=true))
 
