@@ -1,0 +1,17 @@
+{
+  "logoName": "مدير المهام",
+  "mainHead": "أضف مهمة جديدة",
+  "priority": "الأولوية",
+  "dueData": "تاريخ الاستحقاق",
+  "addButton": "إضافة",
+  "pleaceholderText": "أدخل مهمتك...",
+  "seconhead": "المهمة",
+  "noTasks": "لا توجد مهام بعد. أضف واحدة أعلاه",
+  "save": "حفظ",
+  "cancel": "إلغاء",
+  "optionData": {
+    "Medium": "متوسطة",
+    "Low": "منخفضة",
+    "High": "عالية"
+  }
+}

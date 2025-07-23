@@ -1,0 +1,18 @@
+{
+    "logoName" : "Task Manager",
+    "mainHead" : "Add New Task",
+    "priority" : "Priority",
+     "dueData" : "Due Date",
+     "addButton": "Add",
+     "pleaceholderText" : "Enter your task...",
+     "seconhead": "Task",
+     "noTasks" : "No tasks yet. Add one above",
+     "save": "Save",
+     "cancel" : "Cancel",
+    "optionData": {
+     "Medium": "Medium",
+     "Low" : "Low",
+     "High" : "High"
+     }
+}
+ 
