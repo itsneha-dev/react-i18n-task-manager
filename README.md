@@ -95,5 +95,5 @@ Manage dynamic language changes
 Handle RTL layout support
 
 ## Screenshort
-[image alt](https://github.com/itsneha-dev/react-i18n-task-manager/blob/93cad86b0e6ecd43ea2bdd1fe2c132de716cc602/hi_translation.png)
+![image alt](https://github.com/itsneha-dev/react-i18n-task-manager/blob/93cad86b0e6ecd43ea2bdd1fe2c132de716cc602/hi_translation.png)
 
