@@ -94,7 +94,3 @@ Manage dynamic language changes
 
 Handle RTL layout support
 
-## Screenshort
-
-[image alt](Screenshot 2025-07-22 235819.png)
-
