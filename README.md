@@ -1,12 +1,96 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# React Task Manager with i18next Localization
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a simple Task Manager / To-Do list app built using **React** to demonstrate how to implement i18next localization in a React project.
 
-## Expanding the ESLint configuration
+The app supports multiple languages (like English, Arabic, Hindi, etc.) for demo and dynamically updates the layout direction (LTR/RTL) based on the selected language.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## Features
+
+📝 Add and manage tasks
+
+🌐 Multilingual support using react-i18next
+
+↔️ Dynamic layout direction change (RTL / LTR)
+
+🌍 Language switcher with flags or dropdown
+
+💡 Clean and responsive UI using Tailwind CSS
+
+
+## Tech Stack
+
+React
+
+react-i18next
+
+i18next
+
+i18next-http-backend
+
+i18next-browser-languagedetector
+
+JavaScript / JSX
+
+Tailwind CSS
+
+
+
+## Support Languages
+
+English (EN)
+
+हिंदी (Hindi)
+
+العربية (Arabic)
+
+This project currently supports 3 languages as a demo, but you can easily add more.
+
+
+## Getting Started
+
+git clone https://github.com/itsneha-dev/react-i18n-task-manager
+
+```bash
+  cd Todo
+```
+
+Install project dependencies
+
+```bash
+ npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+Open your browser at 
+
+```bash
+  `http://localhost:5173`
+```
+
+    
+### 🌍 Add Your Own Language
+
+This app is built with flexible i18next support.  
+You can easily add your own language by following a few simple steps.
+
+👉 [Click here for full guide](./docs/ADD_LANGUAGE.md)
+
+
+##  Why I Built This
+
+As a React developer, I wanted to explore and demonstrate how localization works in real-world projects using i18next in React. This project is designed to help others understand how to:
+
+Set up internationalization
+
+Manage dynamic language changes
+
+Handle RTL layout support
+
