@@ -17,9 +17,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 22
+          cache: 'npm'
 
       - name: Install Dependencies
-        run: npm install
+        run: npm ci
 
       # - name: Run Tests
       #   run: npm test -- --watchAll=false
@@ -35,4 +36,4 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
       
       - name: Deploy static site to S3 bucket
-        run: aws s3 sync dist/ . s3://react-i18n-task-manager --delete 
+        run: aws s3 sync dist/ s3://react-i18n-task-manager --delete 
